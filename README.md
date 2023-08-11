@@ -1,0 +1,1 @@
+ This repo contain some modifications of [ned14 outcome](https://github.com/ned14/outcome) library for Eao. You SHOULD NOT use this, please visit  https://github.com/ned14/outcome to get the official version.
