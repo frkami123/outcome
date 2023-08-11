@@ -10,7 +10,7 @@ set(CMAKE_POLICY_DEFAULT_CMP0135 NEW)
 set(CMAKE_POLICY_DEFAULT_CMP0048 NEW)
 set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
 
-add_library(outcome 
+add_library(outcome INTERFACE
   include/Outcome/outcome_093f364aa6832c39d54d95da8fd0d7ca16fa4a08_experimental.hpp
 )
 
@@ -19,6 +19,6 @@ target_compile_features(outcome INTERFACE cxx_std_23)
 
 target_include_directories(
   outcome
-  PUBLIC
+  INTERFACE
   $<BUILD_INTERFACE:${${PROJECT_NAME}_SOURCE_DIR}/include>
 )
