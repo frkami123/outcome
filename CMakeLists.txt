@@ -11,7 +11,6 @@ set(CMAKE_POLICY_DEFAULT_CMP0048 NEW)
 set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
 
 add_library(outcome INTERFACE
-  include/Outcome/outcome_093f364aa6832c39d54d95da8fd0d7ca16fa4a08_experimental.hpp
   include/Outcome/outcome_018620768577911c9b259275a5957525d55ad09a_experimental.hpp
 )
 
